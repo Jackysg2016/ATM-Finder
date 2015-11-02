@@ -1,0 +1,421 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1ABAA44F1B4562E700E204C0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ABAA44E1B4562E700E204C0 /* main.m */; };
+		1ABAA4521B4562E700E204C0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ABAA4511B4562E700E204C0 /* AppDelegate.m */; };
+		1ABAA4781B4563A300E204C0 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1ABAA4771B4563A300E204C0 /* MapKit.framework */; };
+		C214E8FE1BB0AAED00C5AD8B /* NSArray+ATMFinder.m in Sources */ = {isa = PBXBuildFile; fileRef = C214E8FD1BB0AAED00C5AD8B /* NSArray+ATMFinder.m */; };
+		C214E9011BB0ABFF00C5AD8B /* NSObject+ATMFinder.m in Sources */ = {isa = PBXBuildFile; fileRef = C214E9001BB0ABFF00C5AD8B /* NSObject+ATMFinder.m */; };
+		C214E9071BB19EA300C5AD8B /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = C214E9061BB19EA300C5AD8B /* Constants.m */; };
+		C214E90D1BB1AC2400C5AD8B /* ATMNetworkHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = C214E90C1BB1AC2400C5AD8B /* ATMNetworkHelper.m */; };
+		C214E91B1BB1C77400C5AD8B /* UIView+ATMFinder.m in Sources */ = {isa = PBXBuildFile; fileRef = C214E91A1BB1C77400C5AD8B /* UIView+ATMFinder.m */; };
+		C214E9241BB2011400C5AD8B /* ATMAnnotationDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C214E9231BB2011400C5AD8B /* ATMAnnotationDetailViewController.m */; };
+		C214E9271BB2013500C5AD8B /* ATMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C214E9261BB2013500C5AD8B /* ATMViewController.m */; };
+		C29852041BE7BFCB0000790E /* ATMMapAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = C29852011BE7BFCB0000790E /* ATMMapAnnotation.m */; };
+		C29852051BE7BFCB0000790E /* ATMPinAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = C29852031BE7BFCB0000790E /* ATMPinAnnotationView.m */; };
+		C298520A1BE7C0050000790E /* DetailATMTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C29852071BE7C0050000790E /* DetailATMTableViewCell.m */; };
+		C298520B1BE7C0050000790E /* OtherATMTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C29852091BE7C0050000790E /* OtherATMTableViewCell.m */; };
+		C29B84D71BB229C70020F75D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C29B84D61BB229C70020F75D /* Images.xcassets */; };
+		C2C6F61E1BB0891B0031CDEE /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2C6F61D1BB0891B0031CDEE /* MainStoryboard.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1ABAA4491B4562E700E204C0 /* ATM Finder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ATM Finder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1ABAA44D1B4562E700E204C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1ABAA44E1B4562E700E204C0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1ABAA4501B4562E700E204C0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1ABAA4511B4562E700E204C0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1ABAA4771B4563A300E204C0 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		C214E8FC1BB0AAED00C5AD8B /* NSArray+ATMFinder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSArray+ATMFinder.h"; path = "Helpers/NSArray+ATMFinder.h"; sourceTree = "<group>"; };
+		C214E8FD1BB0AAED00C5AD8B /* NSArray+ATMFinder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSArray+ATMFinder.m"; path = "Helpers/NSArray+ATMFinder.m"; sourceTree = "<group>"; };
+		C214E8FF1BB0ABFF00C5AD8B /* NSObject+ATMFinder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSObject+ATMFinder.h"; path = "Helpers/NSObject+ATMFinder.h"; sourceTree = "<group>"; };
+		C214E9001BB0ABFF00C5AD8B /* NSObject+ATMFinder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSObject+ATMFinder.m"; path = "Helpers/NSObject+ATMFinder.m"; sourceTree = "<group>"; };
+		C214E9051BB19EA300C5AD8B /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Constants.h; path = Helpers/Constants.h; sourceTree = "<group>"; };
+		C214E9061BB19EA300C5AD8B /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Constants.m; path = Helpers/Constants.m; sourceTree = "<group>"; };
+		C214E90B1BB1AC2400C5AD8B /* ATMNetworkHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ATMNetworkHelper.h; path = Network/ATMNetworkHelper.h; sourceTree = "<group>"; };
+		C214E90C1BB1AC2400C5AD8B /* ATMNetworkHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ATMNetworkHelper.m; path = Network/ATMNetworkHelper.m; sourceTree = "<group>"; };
+		C214E9191BB1C77400C5AD8B /* UIView+ATMFinder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+ATMFinder.h"; path = "Helpers/UIView+ATMFinder.h"; sourceTree = "<group>"; };
+		C214E91A1BB1C77400C5AD8B /* UIView+ATMFinder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+ATMFinder.m"; path = "Helpers/UIView+ATMFinder.m"; sourceTree = "<group>"; };
+		C214E9221BB2011400C5AD8B /* ATMAnnotationDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ATMAnnotationDetailViewController.h; path = Controllers/ATMDetailViewController/ATMAnnotationDetailViewController.h; sourceTree = "<group>"; };
+		C214E9231BB2011400C5AD8B /* ATMAnnotationDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ATMAnnotationDetailViewController.m; path = Controllers/ATMDetailViewController/ATMAnnotationDetailViewController.m; sourceTree = "<group>"; };
+		C214E9251BB2013500C5AD8B /* ATMViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ATMViewController.h; path = Controllers/MapViewController/ATMViewController.h; sourceTree = "<group>"; };
+		C214E9261BB2013500C5AD8B /* ATMViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ATMViewController.m; path = Controllers/MapViewController/ATMViewController.m; sourceTree = "<group>"; };
+		C29852001BE7BFCB0000790E /* ATMMapAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ATMMapAnnotation.h; path = Views/MapViewAnnotations/ATMMapAnnotation.h; sourceTree = "<group>"; };
+		C29852011BE7BFCB0000790E /* ATMMapAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ATMMapAnnotation.m; path = Views/MapViewAnnotations/ATMMapAnnotation.m; sourceTree = "<group>"; };
+		C29852021BE7BFCB0000790E /* ATMPinAnnotationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ATMPinAnnotationView.h; path = Views/MapViewAnnotations/ATMPinAnnotationView.h; sourceTree = "<group>"; };
+		C29852031BE7BFCB0000790E /* ATMPinAnnotationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ATMPinAnnotationView.m; path = Views/MapViewAnnotations/ATMPinAnnotationView.m; sourceTree = "<group>"; };
+		C29852061BE7C0050000790E /* DetailATMTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DetailATMTableViewCell.h; path = Views/ATMDetailView/DetailATMTableViewCell.h; sourceTree = "<group>"; };
+		C29852071BE7C0050000790E /* DetailATMTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DetailATMTableViewCell.m; path = Views/ATMDetailView/DetailATMTableViewCell.m; sourceTree = "<group>"; };
+		C29852081BE7C0050000790E /* OtherATMTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OtherATMTableViewCell.h; path = Views/ATMDetailView/OtherATMTableViewCell.h; sourceTree = "<group>"; };
+		C29852091BE7C0050000790E /* OtherATMTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OtherATMTableViewCell.m; path = Views/ATMDetailView/OtherATMTableViewCell.m; sourceTree = "<group>"; };
+		C29B84D61BB229C70020F75D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C2C6F61D1BB0891B0031CDEE /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1ABAA4461B4562E700E204C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1ABAA4781B4563A300E204C0 /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1ABAA4401B4562E700E204C0 = {
+			isa = PBXGroup;
+			children = (
+				1ABAA44B1B4562E700E204C0 /* ATM Finder */,
+				1ABAA44A1B4562E700E204C0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1ABAA44A1B4562E700E204C0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1ABAA4491B4562E700E204C0 /* ATM Finder.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1ABAA44B1B4562E700E204C0 /* ATM Finder */ = {
+			isa = PBXGroup;
+			children = (
+				C214E8F81BB0A1A600C5AD8B /* Helpers */,
+				C214E9081BB1ABE100C5AD8B /* Network */,
+				C29851FC1BE7BED70000790E /* Views */,
+				C214E9151BB1AC9A00C5AD8B /* Controllers */,
+				1ABAA4501B4562E700E204C0 /* AppDelegate.h */,
+				1ABAA4511B4562E700E204C0 /* AppDelegate.m */,
+				C2C6F61D1BB0891B0031CDEE /* MainStoryboard.storyboard */,
+				C29B84D61BB229C70020F75D /* Images.xcassets */,
+				1ABAA44C1B4562E700E204C0 /* Supporting Files */,
+				1ABAA4791B4563C100E204C0 /* Frameworks */,
+			);
+			path = "ATM Finder";
+			sourceTree = "<group>";
+		};
+		1ABAA44C1B4562E700E204C0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1ABAA44D1B4562E700E204C0 /* Info.plist */,
+				1ABAA44E1B4562E700E204C0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1ABAA4791B4563C100E204C0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1ABAA4771B4563A300E204C0 /* MapKit.framework */,
+			);
+			name = Frameworks;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		C214E8F81BB0A1A600C5AD8B /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				C214E9051BB19EA300C5AD8B /* Constants.h */,
+				C214E9061BB19EA300C5AD8B /* Constants.m */,
+				C214E8FC1BB0AAED00C5AD8B /* NSArray+ATMFinder.h */,
+				C214E8FD1BB0AAED00C5AD8B /* NSArray+ATMFinder.m */,
+				C214E8FF1BB0ABFF00C5AD8B /* NSObject+ATMFinder.h */,
+				C214E9001BB0ABFF00C5AD8B /* NSObject+ATMFinder.m */,
+				C214E9191BB1C77400C5AD8B /* UIView+ATMFinder.h */,
+				C214E91A1BB1C77400C5AD8B /* UIView+ATMFinder.m */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		C214E9081BB1ABE100C5AD8B /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				C214E90B1BB1AC2400C5AD8B /* ATMNetworkHelper.h */,
+				C214E90C1BB1AC2400C5AD8B /* ATMNetworkHelper.m */,
+			);
+			name = Network;
+			sourceTree = "<group>";
+		};
+		C214E9151BB1AC9A00C5AD8B /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C214E9201BB2008900C5AD8B /* ATMDetailViewController */,
+				C214E91F1BB2007900C5AD8B /* MapViewController */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		C214E91F1BB2007900C5AD8B /* MapViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C214E9251BB2013500C5AD8B /* ATMViewController.h */,
+				C214E9261BB2013500C5AD8B /* ATMViewController.m */,
+			);
+			name = MapViewController;
+			sourceTree = "<group>";
+		};
+		C214E9201BB2008900C5AD8B /* ATMDetailViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C214E9221BB2011400C5AD8B /* ATMAnnotationDetailViewController.h */,
+				C214E9231BB2011400C5AD8B /* ATMAnnotationDetailViewController.m */,
+			);
+			name = ATMDetailViewController;
+			sourceTree = "<group>";
+		};
+		C29851FC1BE7BED70000790E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C29851FF1BE7BF0E0000790E /* ATMDetailView */,
+				C29851FE1BE7BF020000790E /* MapViewAnnotations */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		C29851FE1BE7BF020000790E /* MapViewAnnotations */ = {
+			isa = PBXGroup;
+			children = (
+				C29852001BE7BFCB0000790E /* ATMMapAnnotation.h */,
+				C29852011BE7BFCB0000790E /* ATMMapAnnotation.m */,
+				C29852021BE7BFCB0000790E /* ATMPinAnnotationView.h */,
+				C29852031BE7BFCB0000790E /* ATMPinAnnotationView.m */,
+			);
+			name = MapViewAnnotations;
+			sourceTree = "<group>";
+		};
+		C29851FF1BE7BF0E0000790E /* ATMDetailView */ = {
+			isa = PBXGroup;
+			children = (
+				C29852061BE7C0050000790E /* DetailATMTableViewCell.h */,
+				C29852071BE7C0050000790E /* DetailATMTableViewCell.m */,
+				C29852081BE7C0050000790E /* OtherATMTableViewCell.h */,
+				C29852091BE7C0050000790E /* OtherATMTableViewCell.m */,
+			);
+			name = ATMDetailView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1ABAA4481B4562E700E204C0 /* ATM Finder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1ABAA46C1B4562E700E204C0 /* Build configuration list for PBXNativeTarget "ATM Finder" */;
+			buildPhases = (
+				1ABAA4451B4562E700E204C0 /* Sources */,
+				1ABAA4461B4562E700E204C0 /* Frameworks */,
+				1ABAA4471B4562E700E204C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ATM Finder";
+			productName = "ATM Finder";
+			productReference = 1ABAA4491B4562E700E204C0 /* ATM Finder.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1ABAA4411B4562E700E204C0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Buy n Large";
+				TargetAttributes = {
+					1ABAA4481B4562E700E204C0 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+				};
+			};
+			buildConfigurationList = 1ABAA4441B4562E700E204C0 /* Build configuration list for PBXProject "ATM Finder" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1ABAA4401B4562E700E204C0;
+			productRefGroup = 1ABAA44A1B4562E700E204C0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1ABAA4481B4562E700E204C0 /* ATM Finder */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1ABAA4471B4562E700E204C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C29B84D71BB229C70020F75D /* Images.xcassets in Resources */,
+				C2C6F61E1BB0891B0031CDEE /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1ABAA4451B4562E700E204C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C214E9011BB0ABFF00C5AD8B /* NSObject+ATMFinder.m in Sources */,
+				C214E9271BB2013500C5AD8B /* ATMViewController.m in Sources */,
+				C214E90D1BB1AC2400C5AD8B /* ATMNetworkHelper.m in Sources */,
+				1ABAA4521B4562E700E204C0 /* AppDelegate.m in Sources */,
+				1ABAA44F1B4562E700E204C0 /* main.m in Sources */,
+				C214E91B1BB1C77400C5AD8B /* UIView+ATMFinder.m in Sources */,
+				C298520A1BE7C0050000790E /* DetailATMTableViewCell.m in Sources */,
+				C214E9241BB2011400C5AD8B /* ATMAnnotationDetailViewController.m in Sources */,
+				C29852051BE7BFCB0000790E /* ATMPinAnnotationView.m in Sources */,
+				C29852041BE7BFCB0000790E /* ATMMapAnnotation.m in Sources */,
+				C298520B1BE7C0050000790E /* OtherATMTableViewCell.m in Sources */,
+				C214E8FE1BB0AAED00C5AD8B /* NSArray+ATMFinder.m in Sources */,
+				C214E9071BB19EA300C5AD8B /* Constants.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1ABAA46A1B4562E700E204C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1ABAA46B1B4562E700E204C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1ABAA46D1B4562E700E204C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "ATM Finder/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1ABAA46E1B4562E700E204C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "ATM Finder/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1ABAA4441B4562E700E204C0 /* Build configuration list for PBXProject "ATM Finder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1ABAA46A1B4562E700E204C0 /* Debug */,
+				1ABAA46B1B4562E700E204C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1ABAA46C1B4562E700E204C0 /* Build configuration list for PBXNativeTarget "ATM Finder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1ABAA46D1B4562E700E204C0 /* Debug */,
+				1ABAA46E1B4562E700E204C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1ABAA4411B4562E700E204C0 /* Project object */;
+}
